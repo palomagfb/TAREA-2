@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+div,
+li {
+    box-sizing: border-box;
+}
+
+.header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.global_nav_item {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.global_nav_item:hover {
+    background: #fff;
+    color: #42210b;
+}
+
+.global_nav {
+    display: flex;
+    align-items: stretch;
+}
+
+.logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.section_inner {
+    padding: 50px 10% 30px;
+}
+
+.key {
+    height: 500px;
+    background: center / cover no-repeat url("../images/sample_key.jpg");
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+
+.key h1 {
+    font-size: 2.5rem;
+}
+
+.section_title {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.menu_title {
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+.caffee_menu_image {
+    width: 20%;
+    border-radius: 50%;
+}
+.section_tittle_content { 
+    justify-content: space-between
+    display: flex 
+}
+.section_tittle_content p{
+    width: 60%;
+}
+.section_tittle_content img{
+    width: 35%;
+}
+.menu {
+    /* parte 3 */
+    background:fixed 100% bottom url(/images/sample_menu_bg.jpg);
+}
+.pancakes ul{
+    display: flex;
+}
+.pancakes ul li{
+    display: flex;
+    background-color: #fff ;
+    width: 49%;
+    margin: 1% 
+}
+.pancakes ul li div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 600;
+}
+
+}
+.pancakes ul li img{
+    width: 55%;
+    object-fit: cover;
+}
+.coffee ul{
+    display: flex;
+}
+.coffee_side li{
+    display: flex;
+    width: auto;
+    margin: 20px;
+    text-align: center;
+}
+.coffee_side{
+    width: 49%;
+    background-color: #fff ;
+}
+.coffee_side div{
+    width: 80%; 
+}
+.coffee_side li img{
+    width: 20%;
+}
+.access dl{
+    display: flex;  
+}
+.access dl dt{
+    height: 100%;
+    width: 80px;
+}
+.inframe{
+    width: 100%;
+}
+.footer{
+    display: block;
+}
+.footer{
+    width: 100%;
+    background-color: #251e19 ;
+    position: absolute;
+    bottom: -75px ;
+    padding-bottom: 10px;
+    height: 75px;
+}
+
+.footer nav ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.footer nav ul a{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer nav ul a li img{
+    width: 80px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
